@@ -1,0 +1,11 @@
+@use "../../../../styles/variables.scss";
+
+.container {
+  font-family: variables.$font-primary;
+  font-size: variables.$font-size-primary;
+  color: variables.$font-color-primary;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-left: 15px;
+}
